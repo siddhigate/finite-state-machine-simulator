@@ -28,3 +28,6 @@ The problem statement was originally from [here](https://flaviocopes.com/finite-
 ### Transition diagram
 
 ![transition diagram](./transitiondiagram.png)
+
+
+This mealy machine is simulated in this project using JavaScript
