@@ -30,4 +30,4 @@ The problem statement was originally from [here](https://flaviocopes.com/finite-
 ![transition diagram](./transitiondiagram.png)
 
 
-This mealy machine is simulated in this project using JavaScript
+**This mealy machine is simulated in this project using JavaScript**
