@@ -31,8 +31,8 @@ Check out the live demo [here](https://fsm-simulator-app.netlify.app/)
 
 ![transition table](./transitiontable.png)
 
-## Transition diagram
 
 
 
-## This mealy machine is simulated in this project using JavaScript. [Live Demo](https://fsm-simulator-app.netlify.app/)
+### This mealy machine is simulated in this project using JavaScript. 
+### [Live Demo](https://fsm-simulator-app.netlify.app/)
