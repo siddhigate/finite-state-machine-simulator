@@ -51,20 +51,20 @@ const machine = {
         this.state = stateName;
         
         switch(stateName){
-            case "OFF": light1.src = "./off.gif";
-                        light2.src = "./off.gif";
-                        light3.src = "./off.gif";
+            case "OFF": light1.src = "./images/off.gif";
+                        light2.src = "./images/off.gif";
+                        light3.src = "./images/off.gif";
                         break;
             
-            case "ONl1": light1.src = "./on.gif";
+            case "ONl1": light1.src = "./images/on.gif";
                          break;
             
-            case "ONl2": light1.src = "./off.gif";
-                         light2.src = "./on.gif";   
+            case "ONl2": light1.src = "./images/off.gif";
+                         light2.src = "./images/on.gif";   
                          break;
             
-            case "ONl3": light1.src = "./off.gif";
-                         light3.src = "./on.gif";   
+            case "ONl3": light1.src = "./images/off.gif";
+                         light3.src = "./images/on.gif";   
                          break;
         }
     }
