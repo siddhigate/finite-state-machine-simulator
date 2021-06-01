@@ -20,6 +20,11 @@ The problem statement was originally from [here](https://flaviocopes.com/finite-
 -   The states are: OFF, L1_ON, L2_ON, L3_ON (00,01,10,11)
 -   The inputs are: P1, P2 (0, 1 )
 
+
 ### Transition Table
 
 ![transition table](./transitiontable.png)
+
+### Transition diagram
+
+![transition diagram](./transitiondiagram.png)
