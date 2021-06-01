@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSM</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+    <nav class="navigation ">
+        <div class="nav-brand"> lightHomeFSM</div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="room1">
+                
+                <img src="./off.gif" alt="" id="l2">
+                <span class="text">l2</span>
+                <span class="text1">kitchen</span>
+            </div>
+            <div class="room2">
+                <span class="text">l3</span>
+                <img src="./off.gif" alt="" id="l3">
+                
+                <span class="text1">bedroom</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="room3">
+                <span class="text">l1</span>
+                <img id="l1" src="./off.gif" alt="" >
+                <span class="text1">entrance</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="room">
+                <div onclick="onP1()" class="input_button">P1</div>
+            </div>
+            <div class="room">
+                <div onclick="onP2()" class="input_button">P2</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
