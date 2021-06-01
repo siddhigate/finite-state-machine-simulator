@@ -7,6 +7,7 @@ A finite state machine simulator built using Javascript
 
 The problem statement is originally from [here](https://flaviocopes.com/finite-state-machines/#:~:text=Our%20real%20world%20scenario%20is,the%20l1%20light%20turns%20on.)
 
+![problem statement pic](https://flaviocopes.com/finite-state-machines/lights.jpg)
 -   Our real world scenario is this: we have a house, with one door, 2 buttons and 3 lights.
 -   At the default state the lights are all turned off.
 -   When you enter the house, you can press one of the 2 push buttons you have, p1 or p2. When you press any of those buttons, the l1 light turns on.
