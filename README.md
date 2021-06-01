@@ -19,7 +19,7 @@ The problem statement is originally from [here](https://flaviocopes.com/finite-s
 
 ## Solution
 
-
+![output gif](./outdemo.gif)
 Check out the live demo [here](https://fsm-simulator-app.netlify.app/)
 -   The output is dependent on the current state and the present input, thus, the given FSM is a **MEALY MACHINE**
 -   The states are: OFF, L1_ON, L2_ON, L3_ON (00,01,10,11)
