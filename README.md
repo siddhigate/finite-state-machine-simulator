@@ -5,7 +5,10 @@ A finite state machine simulator built using Javascript
 
 ## Problem Statement
 
-The problem statement was originally from [here](https://flaviocopes.com/finite-state-machines/#:~:text=Our%20real%20world%20scenario%20is,the%20l1%20light%20turns%20on.)
+The problem statement is originally from [here](https://flaviocopes.com/finite-state-machines/#:~:text=Our%20real%20world%20scenario%20is,the%20l1%20light%20turns%20on.)
+
+
+<img src="https://flaviocopes.com/finite-state-machines/lights.jpg" alt="alt text" width="500" height="400">
 
 -   Our real world scenario is this: we have a house, with one door, 2 buttons and 3 lights.
 -   At the default state the lights are all turned off.
@@ -16,16 +19,18 @@ The problem statement was originally from [here](https://flaviocopes.com/finite-
 
 ## Solution
 
+
+Check out the live demo [here](https://fsm-simulator-app.netlify.app/)
 -   The output is dependent on the current state and the present input, thus, the given FSM is a **MEALY MACHINE**
 -   The states are: OFF, L1_ON, L2_ON, L3_ON (00,01,10,11)
 -   The inputs are: P1, P2 (0, 1 )
 
 
-### Transition Table
+## Transition Table
 
 ![transition table](./transitiontable.png)
 
-### Transition diagram
+## Transition diagram
 
 ![transition diagram](./transitiondiagram.png)
 
