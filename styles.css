@@ -52,6 +52,8 @@ body{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+
+    cursor: pointer;
 }
 
 /* navigation */
@@ -80,6 +82,16 @@ body{
 @media (max-width:675px){
     .room1{
         border:none;
+        margin-left:0.5rem;
+    }
+
+    .text{
+        font-size: 1rem;
+        margin-left:0.5rem;
+    }
+
+    .text1{
+        font-size: 0.98rem;
         margin-left:0.5rem;
     }
 }
